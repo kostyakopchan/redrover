@@ -7,6 +7,7 @@ for i in numbers:
         numbers_without_duplicates.append(i)
         
 numbers_without_duplicates.sort()
+
 print(numbers_without_duplicates)
 
 # Solution 2
