@@ -14,4 +14,4 @@ words_amount = {}
 for i in dialog:
     words_amount[i] = words_amount.get(i, 0) + 1
 
-print(words_amount)
+print(max(words_amount, key = words_amount.get))
