@@ -1,4 +1,3 @@
-items = [1, 2, 'Hey', None, 4.3]
 def sum_ignore_non_numbers(items):
     """
     Calculates the sum of all numbers in the list
@@ -10,6 +9,4 @@ def sum_ignore_non_numbers(items):
 
     return sum
 
-result = sum_ignore_non_numbers(items)
-
-print(result)
+print(sum_ignore_non_numbers([1, 2, 'Hey', None, 4.3]))
