@@ -24,11 +24,12 @@ class Calculator:
         return result
     
     def show_operations(self):
-        print(self.operations_history)
+        for i in self.operations_history:
+            print(i)
 
     def clear(self):
         self.operations_history = []
-        
+
 calc = Calculator()
 calc.add(1, 3)
 calc.add(2, 10)
