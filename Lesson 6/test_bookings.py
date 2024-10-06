@@ -4,7 +4,10 @@ BOOKING_URL = 'https://restful-booker.herokuapp.com/booking'
 
 def test_get_bookings():
     response = requests.get(BOOKING_URL)
-    print(response.status_code)
+    if response.status_code == 200:
+        print("Get Bookings - PASSED")
+    else:
+        print("Get Bookings - FAILED")
 
 def test_booking_creation():
     created_booking = new_booking()
