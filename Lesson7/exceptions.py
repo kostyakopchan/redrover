@@ -1,0 +1,2 @@
+class RegistrationError(ValueError):
+    pass
