@@ -1,0 +1,15 @@
+{"city": {
+        "building": "здание",
+        "street": "улица",
+        "park": "парк",
+        "bridge": "мост",
+        "traffic": "движение"
+    },
+    "fruits": {
+        "apple": "яблоко",
+        "banana": "банан",
+        "orange": "апельсин",
+        "grape": "виноград",
+        "strawberry": "клубника"
+    }
+}
